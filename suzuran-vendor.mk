@@ -209,12 +209,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzuran/proprietary/lib/soundfx/libsonysweffect.so:system/lib/soundfx/libsonysweffect.so \
     vendor/sony/suzuran/proprietary/lib64/hw/fingerprint.msm8994.so:system/lib64/hw/fingerprint.msm8994.so \
     vendor/sony/suzuran/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-    vendor/sony/suzuran/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+    vendor/sony/suzuran/proprietary/lib64/hw/libpn547_fw.so:system/lib64/hw/libpn547_fw.so \
     vendor/sony/suzuran/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
     vendor/sony/suzuran/proprietary/lib64/libMiscTaAccessor.so:system/lib64/libMiscTaAccessor.so \
     vendor/sony/suzuran/proprietary/lib64/lib_asb_tee.so:system/lib64/lib_asb_tee.so \
     vendor/sony/suzuran/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
-    vendor/sony/suzuran/proprietary/lib64/lib_get_secure_mode.so:system/lib64/lib_get_secure_mode.so \
     vendor/sony/suzuran/proprietary/lib64/libcamera_clientsemc.so:system/lib64/libcamera_clientsemc.so \
     vendor/sony/suzuran/proprietary/lib64/libcameralight.so:system/lib64/libcameralight.so \
     vendor/sony/suzuran/proprietary/lib64/libcom_fingerprints_service.so:system/lib64/libcom_fingerprints_service.so \
@@ -576,6 +575,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzuran/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+    vendor/sony/suzuran/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libchromatix_s5k3m2xx_common.so:system/vendor/lib/libchromatix_s5k3m2xx_common.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_120.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_hfr_60.so \
@@ -608,6 +608,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzuran/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/sony/suzuran/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
@@ -713,6 +714,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzuran/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/sony/suzuran/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
+    vendor/sony/suzuran/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
@@ -741,6 +743,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzuran/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/sony/suzuran/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
@@ -748,6 +751,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzuran/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/sony/suzuran/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
+    vendor/sony/suzuran/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/sony/suzuran/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
@@ -799,6 +804,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzuran/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/sony/suzuran/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/sony/suzuran/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/sony/suzuran/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/sony/suzuran/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/sony/suzuran/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/sony/suzuran/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
